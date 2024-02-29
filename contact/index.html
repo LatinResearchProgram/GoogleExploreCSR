@@ -29,159 +29,132 @@
   <link href="../css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="../css/responsive.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script type="text/javascript" src="../js/utils.js"></script>
+  
 
 </head>
 
 <body class="sub_page">
 
-  <div class="hero_area">
+  <main>
+    <div class="hero_area">
 
-    <div class="hero_bg_box">
-      <div class="bg_img_box">
-        <img src="../images/hero-bg.png" alt="">
+      <div class="hero_bg_box">
+        <div class="bg_img_box">
+          <img src="../images/hero-bg.png" alt="">
+        </div>
       </div>
+  
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="../">
+              <span>
+                Google Explore CSR
+              </span>
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav  ">
+                <li class="nav-item" data-item="home">
+                  <a class="nav-link" href="../">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item" data-item="about">
+                  <a class="nav-link" href="../about/">Call for participants</a>
+                </li>
+                <li class="nav-item" data-item="register">
+                  <a class="nav-link" href="../register/">Register</a>
+                </li>
+                <li class="nav-item" data-item="participants">
+                  <a class="nav-link" href="../participants/">Participants</a>
+                </li> 
+                <li class="nav-item" data-item="workshop">
+                    <a class="nav-link" href="../workshop/">Workshop</a>
+                  </li> 
+                <li class="nav-item" data-item="contact">
+                  <a class="nav-link" href="../contact/">Contact</a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
+        </div>
+    
+    
+      </header>
+  
+  
     </div>
-
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="../">
-            <span>
-              Google Explore CSR
-            </span>
-          </a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  ">
-              <li class="nav-item">
-                <a class="nav-link" href="../">Home <span class="sr-only"></span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../about/"> Call for participants</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../register/">Register</a>
-              </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="team.html">Participants</a>
-              </li> -->
-              <li class="nav-item active">
-                <a class="nav-link" href="">Contact</a>
-              </li>
-              
-            </ul>
+  
+  
+  
+  
+    <!-- info section -->
+  
+    <section class="info_section layout_padding2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 info_col">
+            <div class="info_contact">
+              <h4>
+                Contact information
+              </h4>
+              <div class="contact_link_box">
+                <a href="">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>
+                    Online
+                  </span>
+                </a>
+                <a href="mailto:explore-CSR-lxcv@googlegroups.com">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span>
+                    explore-CSR-lxcv@googlegroups.com
+                  </span>
+                </a>
+              </div>
+            </div>
           </div>
-        </nav>
-      </div>
-    </header>
-    <!-- end header section -->
-  </div>
-
-
-  <!-- info section -->
-
-  <section class="info_section layout_padding2">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-3 info_col">
-          <div class="info_contact">
-            <h4>
-              Contact information
-            </h4>
-            <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>
-                  Online
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
-                  explore-CSR-lxcv@googlegroups.com
-                </span>
-              </a>
+          <div class="col-md-6 col-lg-2 mx-auto info_col">
+            <div class="info_link_box">
+              <h4>
+                Links
+              </h4>
+              <div class="info_links">
+                <a class="active" href="../">
+                  Home
+                </a>
+                <a class="" href="../about/">
+                  Call for participants
+                </a>
+                <a class="" href="../register/">
+                  Register
+                </a>
+                <a class="" href="../participants/">
+                  Participants
+                </a>
+                <a class="" href="../workshop/">
+                  Workshop
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-2 mx-auto info_col">
-          <div class="info_link_box">
-            <h4>
-              Links
-            </h4>
-            <div class="info_links">
-              <a class="active" href="../">
-                Home
-              </a>
-              <a class="" href="../about/">
-                Call for participants
-              </a>
-              <a class="" href="../register/">
-                Register
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
+  
 
   <!-- end info section -->
-<!-- Sponsors -->
-  <section class="footer_section">
-    <div class="container">
-      <div class="team_container">
-        <div class="row">
-          <div class=" col-sm-6 col-md-2-5 col-lg-1-5">
-            <div class="box ">
-              <div class="img-box">
-                <a target="_blank" href="https://research.google/"><img src="../images/logo-google.png" height="50" class="" alt=""></a>
-              </div>
-              
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-2-5 col-lg-1-5">
-            <div class="box ">
-              <div class="img-box">
-                <a target="_blank" href="https://www.utwente.nl"><img src="../images/logo-ut.png" height="50"class="" alt=""></a>
-              </div>
-              
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-2-5 col-lg-1-5">
-            <div class="box ">
-              <div class="img-box">
-                <a target="_blank" href="https://www.weber.edu/"><img src="../images/logo-weber.png" height="50" class="" alt=""></a>
-              </div>
-              
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-2-5 col-lg-1-5">
-            <div class="box ">
-              <div class="img-box">
-                <a target="_blank" href="https://tec.mx/"><img src="../images/logo-tec.png" height="50" class="" alt=""></a>
-              </div>
-              
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-2-5 col-lg-1-5">
-            <div class="box ">
-              <div class="img-box">
-                <a target="_blank" href="https://www.latinxinai.org/"><img src="../images/logo-lxai.png" height="50" class="" alt=""></a>
-              </div>
-              
-            </div>
-          </div>
 
-        </div>
-      </div>
-    </div>
-  </section>
+
+  
 </body>
   <!-- jQery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

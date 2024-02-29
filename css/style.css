@@ -4,7 +4,25 @@ body {
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "main" "footer";
+  grid-template-rows: 1fr 90px;
 }
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+main {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
+}
+
 
 .layout_padding {
   padding: 90px 0;
@@ -905,6 +923,93 @@ a:focus {
   padding:10px;
 }
 
+
+.image_rounded{
+    border-radius: 50%!important;
+	 height: 180px;
+	 width: 180px;
+	 margin-bottom: 5px;
+   object-fit: cover;
+
+}
+
+.image_profile{
+ height: 250px;
+ width: 250px;
+}
+
+.person-item{
+	margin: 25px;
+}
+
+.position-text{
+	font-size: 0.9rem;
+}
+
+h5.name{
+	padding-top: 10px;
+	margin-bottom: 0rem;
+}
+
+
+.person-item a:hover{
+	    color: #00bbf0;
+}
+
+.scaledown{
+    object-fit: scale-down;
+}
+
+.interns-section{
+  margin: 0px 50px 50px 50px;
+}
+
+.mentors-section{
+  margin: 100px 50px 50px 50px; 
+}
+
+.participants{
+  font-weight: bold;
+  font-size: 2.6rem;
+  margin-bottom: 50px;
+}
+
+.personalLink{
+  height: 30px;
+  width: 30px;
+}
+
+.container-table{
+  width: 80%;
+  margin-top: 70px;
+}
+
+.table-workshop{
+  margin-top: 20px;
+}
+
+.container-table h3{
+  font-weight: bold;
+}
+
+.custom-dialog{
+  max-width: 80% !important;
+}
+
+.table{
+  font-size: 0.9em;
+}
+
+.footer-subpage{
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer_section img {
+  height: 50px;
+}
 
 
 

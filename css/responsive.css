@@ -65,6 +65,22 @@
     position: unset;
     margin: 0 2.5px;
   }
+
+  .custom-dialog{
+    max-width: 100% !important;
+  }
+
+  .table{
+    font-size: 0.7em;
+  }
+
+  .participants{
+    text-align: center;
+  }
+  .footer_section img {
+    height: 35px;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -98,10 +114,25 @@
   }
 }
 
-@media (max-width: 376px) {}
+@media (min-width: 800) {
+	  .container {
+			max-width: 750px;
+		}
+}
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
+  }
+}
+
+@media (min-width: 577px) {
+
+  .hour-table{
+    width: 180px;
+  }
+
+  .speaker-table{
+    width: 140px;
   }
 }
